@@ -501,6 +501,10 @@ export class AppComponent implements OnInit {
     );
   }
 
+  onSearch(){
+    
+  }
+
   displayFn(user?: User): string | undefined {
     return user ? user.name : undefined;
   }
